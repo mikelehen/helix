@@ -1,16 +1,16 @@
 var fs = require('fs');
 
-var LEDS_PER_STRAND = 120;
+var LEDS_PER_STRAND = 90;
 
 // I was working in mm, but you could work in whatever unit you want (but you'll need to tweak SCALE below)
 var RADIUS = 500;
 var STRUCTURE_HEIGHT = 2000;
 
 // how many full rotations we want.
-var REVOLUTIONS = 3;
+var REVOLUTIONS = 2;
 
 // Used to adjust where / how big it shows up in the simulator.
-var MIN_Z = -1.5;
+var MIN_Z = -2;
 var SCALE = (1 / 500); 
 
 // Using the parametric equations / arc length formula from http://mathworld.wolfram.com/Helix.html
